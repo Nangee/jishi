@@ -1,0 +1,258 @@
+.lxbanner{
+	width: 100%;
+	height: 400px;
+	background:url("http://11093158.s61i.faiusr.com/2/AD0IpomlBRACGAAgtLrZvgUo2b3xvAYwgA84kAM.jpg") no-repeat center;
+	margin: 0 auto;
+}
+/*内容一*/
+.lxxxiao{
+	width: 100%;
+	height: 821px;
+	background:#FFFFFF;
+	margin: 0 auto;
+}
+.lxxxiaoceter{
+	width: 1200px;
+	height: 821px;
+	background:#FFFFFF;
+	margin: 0 auto;
+}
+.lxxxiaotitle{
+	width:1200px;
+	height:153px;
+	/*background:wheat;*/
+	margin: 0 auto;
+}
+.lxxxiaotitle>b{
+	width: 140px;
+    height: 46px;	
+	color:rgb(255, 102, 0);
+	font-size:35px;
+	text-align: center;
+     line-height: 123px;
+}
+.lxxxiaotitle>p{
+	width: 178px;
+	height: 16px;
+	font-size: 14px;
+	color: rgb(196, 196, 196);
+	margin-left:515px;
+	margin-top: -30px;
+}
+.lxxiaoconter{
+	width:1200px ;
+	height:500px ;
+	/*background:aqua;*/
+	margin: 0 auto;
+}
+.lxxiaoleft{
+	width:441px;
+	height:473px;
+	/*background: wheat;*/
+	float: left;
+	/*margin-left: 10px;*/
+	}
+.lxxiaoleft>img{
+	width:442px;
+	height:332px;
+}
+.lxxiaolefp{
+	width:440px;
+	height:116px;
+	/*background:aquamarine;*/
+	margin-top:21px;
+}
+.lxxiaolefp>p{
+	color: #666666;
+	font-size:16px;
+	line-height:25px;
+	text-align: left;
+}
+.lxxiaoright{
+	width:718px;
+	height:500px;
+	/*background:paleturquoise;*/
+	float: right;
+}
+.lxxiaoright>p{
+	width: 718px;
+	height: 112px;
+	/*background: red;*/
+	color: #222222;
+     font-size:14px;
+     line-height:30px;
+     text-align: left;
+}
+.lxxiaort{
+	width: 728px;
+	height: 114px;
+	/*background:bisque;*/
+	margin-top:20px;
+}	
+.lxxiaort>b{
+	display:block;
+	width: 90px;
+	height: 24px;
+	color:#666666;
+	font-size:15px;
+	text-align: left;
+	padding-top: 30px;
+	
+}
+.lxxiaort>p{
+	width: 728px;
+	height: 60px;
+	color:#666666;
+	font-size:15px;
+	text-align: left;
+	line-height: 20px;
+	margin-top: 37px;
+}
+.lxxiaorlogo{
+	width:740px;
+	height:230px;
+	/*background: red;*/
+	margin-top:20px;
+	overflow: hidden;
+}
+.lxxiaorlogo>div{
+	width:230px;
+	height:200px;
+	float: left;
+	margin: 0;
+	overflow: hidden;
+}
+.lxxiaorlogo>div>img{
+	margin: 0;
+	width:230px;
+	height:200px;
+	transition: 1s;
+	float: left;
+	padding-right:10px;
+}
+.lxxiaorlogo>div>img:hover{
+	margin: 0 0 0 -8px;
+}
+
+/*内容第二块*/
+.lxc{
+	width: 100%;
+	height:676px;
+	background: url(http://11093158.s61i.faiusr.com/2/AD0IpomlBRACGAAgsLrZvgUo3qTz9QUwgA84qAU.jpg) no-repeat center;
+	margin: 0 auto;
+}
+.lXcenter{
+	width: 1200px;
+	height: 676px;
+	margin: 0 auto;
+	/*background: aqua;*/
+	padding-top:10px ;
+}
+.lXctitle{
+	width:281px;
+	height:124px;
+	/*background: wheat;*/
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.lXctitle>b{
+	color:rgb(255, 255, 255);
+	font-size:50px ;
+	text-align: center;
+	
+}
+.lXctitle>p{
+	color: rgb(255, 255, 255);
+	font-size:16px;
+	line-height: 21px;
+	
+}
+.lXconter{
+	width: 1010px;
+	height: 307px;
+	/*background:aqua;*/
+	margin: 0 auto;
+	margin-top: 47px;
+}
+.lXconter>img{
+	width: 150px;
+	height: 150px;
+	float: left;
+    margin-left:134px;
+    margin-top: 50px;
+}
+.lXconter>img:nth-child(1){
+	margin-left: 0px;
+	margin-top:0px;
+}
+/*.lXconter>img:nth-child(1):hover{
+    width: 150px;
+    height: 150px;
+	background: url("http://11093158.s61i.faiusr.com/4/AD0IpomlBRAEGAAgu7rZvgUohPWtsgYwlgE4lgE.png") no-repeat;
+}*/
+.lXconter>img:nth-child(2){
+	margin-top:0px
+}
+.lXconter>img:nth-child(3){
+	margin-top:0px
+}
+.lXconter>img:nth-child(4){
+	margin-top:0px
+}
+.lXconter>img:nth-child(5){
+	margin-left: 0px;
+}
+/*内容第二块结束*/
+
+/*教育开始*/
+.lXJy{
+	width: 100%;
+	height:auto;
+	margin: 0 auto;
+    background: #FFFFFF;
+}
+.lXJycenter{
+width: 1200px;
+height: auto;
+/*background:aqua;*/
+margin: 0 auto;
+}
+.lXJyctitle{
+	width:350px;
+	height:124px;
+	/*background: wheat;*/
+	margin: 0 auto;
+	padding-top: 30px;
+	margin-bottom: 62px;
+
+}
+.lXJyctitle>b{
+	width:350px;
+	height: 66px;
+	color:rgb(255, 102, 0);
+	font-size: 50px;
+	text-align: center;
+	
+}
+.lXJyctitle>p{
+	color: rgb(196, 196, 196);
+	font-size:16px;
+	line-height: 21px;
+	display: block;
+	
+}
+.lXJyconter{
+	width:1200px;
+	height:675px;
+/*	background:aqua;*/
+	margin: 0 auto;
+}
+.lXJyconter>img{
+	width:298px;
+	height:289px;
+	/*background:lawngreen;*/
+	float: left;
+	padding-left: 10px;
+	margin-top:10px;
+}
+/*教育结束**/

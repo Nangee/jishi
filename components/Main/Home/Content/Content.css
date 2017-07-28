@@ -1,0 +1,14 @@
+body{overflow-x:hidden;}
+h1{ text-align: center; font-size: 35px; line-height: 40px;color: rgb(255, 102, 0);}
+p { text-align: center; line-height: 40px; font-size: 14px; color: rgb(196, 196, 196);}
+.content-c{ padding-top: 52px; background: white;}
+.img-m { width: 100%; height: 1024px;background: transparent url(http://11093158.s61i.faiusr.com/2/AD0IpomlBRACGAAgkqHZvgUokOqhWzCADzjLBg.jpg) no-repeat bottom;}
+.module1{ margin: 0 auto; width: 300px; height: 181px; text-align: center; position: relative; top: 150px; left: -200px; animation: none;}
+.fk-editor span{ font-weight: bold; font-size: 50px; color: #ff6537;}
+.fk-editor{ position: relative;margin: 0; left: 0; top: 0; word-wrap: break-word; word-break: break-all; clear: both; overflow: hidden; font-size: 20px; font-family: "微软雅黑";}
+.fk-editor div s{ font-size: 14px; color: rgb(169, 169, 169);}
+.module2{ margin: 0 auto; width: 300px; height: 181px; text-align: center; position: relative; top: -50px; left: 120px; animation: none;}
+.module3{ margin: 0 auto; width: 300px; height: 181px; text-align: center; position: relative; top: -30px; left: -420px; animation: none;}
+.module4{ margin: 0 auto; width: 300px; height: 181px; text-align: center; position: relative; top: -280px; left: 400px; animation: none;}
+.module5{ margin: 0 auto; width: 300px; height: 181px; text-align: center; position: relative; top: -180px; left: 470px; animation: none;}
+.module6{ margin: 0 auto; width: 300px; height: 181px; text-align: center; position: relative; top: -305px; left: -460px; animation: none;}

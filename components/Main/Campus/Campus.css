@@ -1,0 +1,103 @@
+.Campus{
+width: 100%;
+height: 380px;
+margin:0 auto ;
+background:url("http://11093158.s61i.faiusr.com/2/AD0IpomlBRACGAAgjKHZvgUo8-GKoAQwgA84-AI.jpg") no-repeat;
+}
+.Campucter{
+	width:100%;
+	height:787px;
+	background:#FFFFFF;
+	margin:0 auto;
+}
+.Campcter{
+	width:1200px;
+	height:787px;
+	background:#FFFFFF;
+	margin: 0 auto;
+}
+.Camptitle{
+	width:1200px;
+	height:244px;
+	/*background:yellow;*/
+	margin: 0 auto;
+}
+.Camptitle>b{
+	display: block;
+	color:rgb(255, 102, 0);
+	font-size:35px;
+	text-align: center;
+	padding-top:115px;
+}
+.Camptitle>p{
+	color: #666666;
+	font-size:14px;
+	text-align: center;
+}
+.Campcen{
+	width:1200px;
+	height:478px;
+	/*background: antiquewhite;*/
+	margin: 0 auto;
+}
+.Campcleft{
+	width:663px;
+	height:464px;
+	/*background:yellowgreen;*/
+	float: left;
+}
+.Campcleft>img{
+	width:663px;
+	height:464px;
+	
+}
+.Campcright{
+	width:517px;
+	height:416px;
+	/*background:lightskyblue;*/
+	float: right;
+}
+.Campcrt{
+	width:434px;
+	height:60px;
+	/*background:yellowgreen;*/
+	margin: 0 auto;
+}
+.Campcrt>p{
+	text-align: left;
+	color:#666666 ;
+	font-size: 14px;
+	line-height:20px;
+}
+.Campcrb{
+	width:434px;
+	height: 62px;
+	margin: 0 auto;
+	margin-top:20px;
+}
+.Campcrb>p{
+	text-align: left;
+	color: #666666;
+	font-weight: bold;
+	font-size: 14px;
+}
+.Campcrb>input{
+	width:436px;
+	height:36px;
+}
+.btn{
+	width:163px;
+	height:44px;
+	background: #8e8e8e;
+	margin-top: 28px;
+	margin-left:38px;
+}
+.btn>button{
+	width:163px;
+	height:44px;
+	border: 0;
+	outline: none;
+	color: #fff;
+	background: #8E8E8E;
+	cursor: pointer;
+}

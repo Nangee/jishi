@@ -1,0 +1,425 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}	
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.body{
+	width:100%;
+}
+
+/*导航样式*/
+.lnav{
+	width: 100%;
+	height: auto;
+	background: rgb(43,43,43);
+	text-align: center;
+}
+.lnanvc{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	clear:both;
+}
+.LJN_main{ clear: both;overflow: hidden; margin: 0 auto; }
+.lnanvc>ul{
+	text-align: center;
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	clear:both;
+	overflow: hidden;
+}
+.lnanvc>ul>li{
+	text-align: center;
+	width: 120px;
+	height: 50px;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.lnanvc>ul>li:nth-child(1){
+	margin-left:0;
+	/*background: rgb(255,102,55);*/
+}
+.lnanvc>ul>li:hover{
+	background: rgb(255,102,55);
+}
+.color{
+	background: rgb(255,102,55);
+}
+.lnanvc>ul>li>a{
+	width: 120px;
+	height: 50px;
+	display: inline-block;
+	line-height: 50px;
+	font-size:16px;
+	color:#FFFFFF;
+	text-decoration: none;
+	list-style: none;
+}
+/*内容*/
+.lcontent{
+height:1076px;
+margin: 0 auto;
+}
+.matter{
+	width:1200px;
+	height:1076px;
+	margin: 0 auto;
+}
+.headline{
+width:785px;
+height:46px;
+margin-top:81px;
+margin: 0  81px auto;
+}
+.matter>img{
+	width: 1200px;
+}
+
+/*内容第二块*/
+.ldetails{
+	height:687px;
+	background:rgb(233,233,233);
+}
+/*内容第三部分*/
+.lsubstance{
+	height:965px;
+	background:white;
+	margin: auto;
+}
+.Lxx-Main{
+	width: 100%;
+	background: white;
+	height: auto;
+}
+.lxxsubstance{
+	width: 1200px;
+	height: 900px;
+	margin: 0 auto;
+	padding-top:0;
+}
+.lcrosshead{
+	width:474px;
+	height:115px;
+	padding-top:68px;
+	margin-left:369px;
+}
+.lcrosshead>h1{
+	height:46px;
+	color:rgb(255,102,0);
+	font-size:35px;
+	line-height: 46px;
+	text-align: center;
+}
+
+.lcrosshead>p{
+	width:474px;
+	height:16px;
+	color:rgb(196,196,196);
+	font-size:14px;
+	line-height: 16px;
+	text-align: center;
+	margin-top: 25px;
+}
+/*内容*/
+.lsmall{
+	width:1200px;
+	height:629px;
+}
+.lsmaleft{
+	width:389px;
+	height:629px;
+	float: left;
+	margin-left:50px;
+	margin-top:88px;
+}
+.lsmalright{
+	width:702px;
+	height:552px;
+	float: left;
+	margin-left: 39px;
+}
+.lsmalcenter{
+	width:697px;
+	height:120px;
+	background:rgb(255,236,219);
+	margin-top:110px;
+	border: 1px dotted rgb(255,120,0);
+	border-radius:20px;
+}
+.lsmalcenter>p{
+	color:rgb(75,75,75);
+	font-size:14px;
+	margin-top:36px;
+	margin-left:15px;
+		text-align:left;
+		line-height:20px;
+}
+
+/*内容第四部分*/
+.lNew{
+	height:707px;
+	background:url(http://11093158.s61i.faiusr.com/4/AD0IpomlBRAEGAAguLrZvgUogJy60AYw-Q44xgU.png) no-repeat top;
+	margin: 0 auto;
+}
+.lxxNew{
+	width: 1200px;
+	height: 707px;
+	margin: 0 auto;
+	padding-top:6px;
+	}
+.ltitle{
+	width:474px;
+	height:115px;
+	margin-top:68px;
+	margin-left:369px;
+}
+.ltitle>h1{
+	height:46px;
+	color:#FFFFFF;
+	font-size:35px;
+	line-height: 46px;
+	text-align: center;
+}
+
+.ltitle>p{
+	width:474px;
+	height:16px;
+	color:#FFFFFF;
+	font-size:14px;
+	line-height: 16px;
+	text-align: center;
+	margin-top: 25px;
+}
+.lconter{
+	width: 1200px;
+	height:360px;
+	margin-top: 66px;
+}
+.lconterl{
+	width:495px;
+	height:246px;
+	float: left;
+	margin-top: 60px;
+	text-align:left;
+}
+.lconterl>span{
+	font-size: 14px;
+	color: rgb(255,255,255);
+	line-height:40px;
+}
+.lconterr{
+	width: 629px;
+	height:360px;
+	float: right;
+}
+/*内容最后*/
+.lfinally{
+	width:100%;
+	height:690px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.lends{
+	width: 1200px;
+	height:779px;
+	margin: 0 auto;
+	padding-top:6px;
+}
+.lendt{
+	width:474px;
+	height:115px;
+	margin-top:68px;
+	margin-left:369px;
+}
+.lendt>h1{
+	height:46px;
+	color:rgb(255,102,0);
+	font-size:35px;
+	line-height: 46px;
+	text-align: center;
+}
+
+.lendt>p{
+	width:474px;
+	height:16px;
+color:rgb(196,196,196);
+	font-size:14px;
+	line-height: 16px;
+	text-align: center;
+	margin-top: 25px;
+}
+.lendsb{
+	width:1200px;
+	height:527px;
+	margin-top:20px;
+	margin-left:80px;
+}
+.lendsl{
+	width: 400px;
+	float: left;
+}
+.lendsl>img{
+	width:400px;
+	height:110px;
+	margin-top:27px;
+}
+.lendsl>img:nth-child(1){
+	width:400px;
+	height:110px;
+	margin-top:0px;
+}
+.lendsr{
+	width:726px;
+	height: 395px;
+	float:right;
+	border-left: 1px solid rgb(218,218,218);
+	position: relative;
+}
+.lendsrc{
+	width:12px;
+	height:12px;
+	background:#bababa;
+	border-radius: 50%;
+	position:absolute;
+	top: 10px;left: 0;
+	margin-left:-6px;
+}
+.led{
+	width:12px;
+	height:12px;
+	background:#bababa;
+	border-radius: 50%;
+	position:absolute;
+	margin-left:-6px;
+}
+.le{
+	width:12px;
+	height:12px;
+	background:#bababa;
+	border-radius: 50%;
+	position:absolute;
+	top: 152px; left: -6px;
+}
+.ler{
+	width:12px;
+	height:12px;
+	background:#bababa;
+	border-radius: 50%;
+	position:absolute;
+	margin-left: -31px;
+	top: 292px;
+}
+.lendsrnd{
+	width:554px;
+	height:61px;
+	margin-left: 25px;
+}
+.lendsrnd>a{
+	display:block;
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+	list-style: none;
+	text-align:left; 
+}
+.lendsrnd>a:hover{
+	color:orange;
+}
+.lendsrnd>p{
+	color:#808080;
+	font-size:14px;
+}
+.lendsrn{
+	width:554px;
+	height:61px;
+	margin-left: 25px;
+	margin-top: 81px;
+}
+.lendsrn>a{
+	display:block;
+	color: #000;
+	font-size:18px;
+	text-align:left; 
+	text-decoration: none;
+	list-style: none;
+}
+.lendsrn>a:hover{
+	color:orange;
+}
+.lendsrn>p{
+	color:#808080;
+	font-size:14px;
+}
+/*到底了*/
+.lxxbottom{
+	height:243px;
+	background:url(http://11093158.s61i.faiusr.com/4/AD0IpomlBRAEGAAguLrZvgUo_57ZgQEwgA84_gE.png) no-repeat top;
+}
+.lbc{
+	width:1200px;
+	height:243px;
+	margin: 0 auto;
+}
+.lbcl{
+	width:130px;
+	height:130px;
+	float: left;
+}
+.lbcl>a{
+	width:130px;
+	height: 130px;
+	display: inline-block;
+	margin-top:61px;
+	margin-left:70px;
+}
+.lbcr{
+	width:595px;
+	height:111px;
+	float: right;
+	margin-right:340px;
+	margin-top: 79px;
+}
+.lbcr>h1{
+	height: 40PX;
+	font-size:38PX;
+	line-height: 40PX;
+	color:rgb(255,255,255);
+	text-align: left;
+}
+.lbcr>P{
+	width:545px;
+	height: 26PX;
+	font-size:20PX;
+	line-height: 26PX;
+	color:rgb(255,255,255);
+	margin-top:18px;
+}
+
