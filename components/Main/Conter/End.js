@@ -24,6 +24,7 @@ componentDidMount = function () {
     }
   render() {
     return (
+        <div className="LJn_bottom">
       <div className="lxxbottom">
         <div className="lbc">
            <div className="lbcl">
@@ -35,6 +36,7 @@ componentDidMount = function () {
            </div>
         </div>
       </div>
+        </div>
     );
   }
 }

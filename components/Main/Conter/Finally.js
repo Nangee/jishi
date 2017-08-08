@@ -27,7 +27,7 @@ componentDidMount = function () {
                              ]});
             }.bind(this)
         })
-    }
+    };
   render() {
     return (
     	<div className="lfinally">

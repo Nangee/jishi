@@ -25,6 +25,7 @@ componentDidMount = function () {
     }
   	render() {
     	return (
+    		<div className="LJN_new">
     		<div className="lNew">
       	    	<div className="lxxNew">
                  	<div className="ltitle">
@@ -41,6 +42,7 @@ componentDidMount = function () {
        			</div>
       			</div>
       		</div>
+			</div>
    		 ); 
   	}
 }

@@ -17,42 +17,13 @@ componentDidMount=function(){
 		'type':'get',
 		'success':function(opt){
 			console.log(opt)
-	this.setState({xz:[opt[0].title,
-		               opt[0].title1,
-		               opt[0].title2,
-		               opt[0].title3,
-		               opt[0].title4,
-		               opt[0].title5,
-		               opt[0].title6,
-		               opt[0].title7,
-		               opt[0].title8,
-		               opt[0].title9,
-		               opt[0].title10,
-		               opt[0].title11,
-		               opt[0].title12,
-		               opt[0].title13,
-		               opt[0].title14,
-		               opt[0].title15,
-		               opt[0].title16,
-		               opt[0].title17,
-		               opt[0].title18,
-		               opt[0].title19,
-		               opt[0].title20,
-		               opt[0].title21,
-		               opt[0].title22,
-		               opt[0].title23,
-		               opt[0].title24,
-		               opt[0].title25,
-		               opt[0].title26,
-		               opt[0].title27,
-		               opt[0].title28,
-		               opt[0].title39,
-		               opt[0].title30,
-		               opt[0].title31,
+	this.setState({xz:[opt[0].title, opt[0].title1, opt[0].title2, opt[0].title3, opt[0].title4, opt[0].title5, opt[0].title6, opt[0].title7, opt[0].title8, opt[0].title9, opt[0].title10, opt[0].title11, opt[0].title12, opt[0].title13, opt[0].title14, opt[0].title15, opt[0].title16, opt[0].title17, opt[0].title18, opt[0].title19, opt[0].title20, opt[0].title21, opt[0].title22, opt[0].title23, opt[0].title24, opt[0].title25, opt[0].title26, opt[0].title27, opt[0].title28, opt[0].title39, opt[0].title30, opt[0].title31,
 	            ]});
 		}.bind(this)
-	})
-}
+	});
+
+
+};
     render(){
         return(
             <div className="content-c" id="content-c">

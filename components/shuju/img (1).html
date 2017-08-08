@@ -8,22 +8,22 @@
 	</head>
 	<body>
 		<input type="file" onchange="setFiles(this)">
-		<button>注册</button>
+		<button>提交</button>
 
 		<div class="photo"></div>
 		<script type="text/javascript">
 
-		var files
+		var files;
 		  var setFiles=function(element){
-		  	console.log(element.files)
+		  	console.log(element.files);
 		  	files=element.files[0]   
-		  }
+		  };
 
 			$('button').click(function(){
-				console.log('xxx')
+				console.log('xxx');
 				var fd=new FormData();  //表单处理数据的方法
-				fd.append('uploadedFile',files) //用append方法以键值对的方式保存
-		        console.log(fd)
+				fd.append('uploadedFile',files); //用append方法以键值对的方式保存
+		        console.log(fd);
 	        $.ajax({
 				type:"post",
 				url:"http://localhost:8005/img/img",
@@ -35,7 +35,7 @@
 					console.log(e)
       			}
 			});
-})
+});
 
 
 
@@ -45,9 +45,9 @@ $.ajax({
 				url:"http://localhost:8005/img/photo",
 				async:true,
 				success:function(e){				
-					console.log(e)
+					console.log(e);
 					for(var i=0;i<e.length;i++){
-						console.log(e[i].img)
+						console.log(e[i].img); 
 					$('.photo').append('<img src="'+e[i].img+'">')
 					}
       			}

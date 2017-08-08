@@ -11,7 +11,7 @@ var pool=mysql.createPool({
 	password:'',
 	database:'xiebin',
 	port:3306
-})
+});
 
 
 

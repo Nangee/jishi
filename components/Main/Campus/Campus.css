@@ -82,8 +82,13 @@ background:url("http://11093158.s61i.faiusr.com/2/AD0IpomlBRACGAAgjKHZvgUo8-GKoA
 	font-size: 14px;
 }
 .Campcrb>input{
-	width:436px;
+	width:420px;
 	height:36px;
+	margin-right: 8px;
+}
+.Campcrb{
+	color: red;
+	font-size: 14px;
 }
 .btn{
 	width:163px;

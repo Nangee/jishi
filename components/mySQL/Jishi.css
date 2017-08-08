@@ -1,0 +1,11 @@
+*{ margin: 0; padding: 0; font-size: 20px;}
+#Modify{
+    cursor: pointer;
+    color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#delete{
+    cursor: pointer;
+    color: blue;
+}

@@ -47,7 +47,7 @@ componentDidMount = function () {
                            ]});
             }.bind(this)
         })
-    }
+    };
     render(){
         return(
         	<div>
@@ -76,8 +76,6 @@ componentDidMount = function () {
 										<div><img src={this.state.apply[11]}/></div>
 										<div><img src={this.state.apply[12]}/></div>
 										<div><img src={this.state.apply[13]}/></div>
-
-
             		 		   		</div>
             		 		  	</div>
             		 		</div>
@@ -113,20 +111,19 @@ componentDidMount = function () {
 	            	  				 <p>{this.state.apply[9]} </p>
 	            				</div>
 	            				<div className="lXJyconter">
-	            				 	<img src={this.state.apply[22]}/>
-	            	  		     	<img src={this.state.apply[23]}/>
-	            	  				<img src={this.state.apply[24]}/>
-	            	    		 	<img src={this.state.apply[25]}/>
-	            	     		 	<img src={this.state.apply[26]}/>
-	            	             	<img src={this.state.apply[27]}/>
-	            	            	<img src={this.state.apply[28]}/>
-	            	             	<img src={this.state.apply[29]}/>
+	            				 	<span><img src={this.state.apply[22]}/></span>
+	            	  		     	<span><img src={this.state.apply[23]}/></span>
+	            	  				<span><img src={this.state.apply[24]}/></span>
+	            	    		 	<span><img src={this.state.apply[25]}/></span>
+	            	     		 	<span><img src={this.state.apply[26]}/></span>
+									<span><img src={this.state.apply[27]}/></span>
+									<span><img src={this.state.apply[28]}/></span>
+									<span><img src={this.state.apply[29]}/></span>
 	            				</div>
 	           			 	</div>
           			 </div>
             		{/*教育环境结束*/}
         </div>
-
         )
     }
 }

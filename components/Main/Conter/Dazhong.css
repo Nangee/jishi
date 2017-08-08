@@ -93,7 +93,7 @@ margin: 0 auto;
 	height:1076px;
 	margin: 0 auto;
 }
-.headline{
+.headline{ 
 width:785px;
 height:46px;
 margin-top:81px;
@@ -184,10 +184,13 @@ margin: 0  81px auto;
 }
 
 /*内容第四部分*/
+.LJN_new{
+	width: 100%;
+	background: white;
+}
 .lNew{
 	height:707px;
 	background:url(http://11093158.s61i.faiusr.com/4/AD0IpomlBRAEGAAguLrZvgUogJy60AYw-Q44xgU.png) no-repeat top;
-	margin: 0 auto;
 }
 .lxxNew{
 	width: 1200px;
@@ -379,6 +382,9 @@ color:rgb(196,196,196);
 	font-size:14px;
 }
 /*到底了*/
+.LJn_bottom{
+	background: white;
+}
 .lxxbottom{
 	height:243px;
 	background:url(http://11093158.s61i.faiusr.com/4/AD0IpomlBRAEGAAguLrZvgUo_57ZgQEwgA84_gE.png) no-repeat top;
